@@ -3,9 +3,6 @@ import Match from '../entities/Match';
 import Punishment from '../entities/Punishment';
 import { PunishmentType } from '../enums/PunishmentType';
 import { LinqRepository } from 'typeorm-linq-repository';
-import { validate } from 'class-validator';
-
-//const punishmentRepository = new LinqRepository(Punishment);
 
 export default class PlayerService {
   
